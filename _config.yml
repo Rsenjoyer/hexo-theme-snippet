@@ -5,20 +5,17 @@
 
 ## menu
 menu:
-- page: home
+- page: 首页
   url: /
   icon:
-- page: 前端
-  url: /categories/前端/
-  icon:
-- page: 后端
-  url: /categories/后端/
-  icon:
-- page: 工具
-  url: /categories/工具/
-  icon:
+- page: 关于
+  url: /about/
+  icon: /favicon.ico
 - page: 时间轴
   url: /archives/
+  icon:
+- page: 转载
+  url: /reprinted/
   icon:
 
 ## favicon
@@ -42,7 +39,7 @@ widgets:
   - category
   - archive
   - tagcloud
-  - friends
+  # - friends
 
 
 ## 搜索
@@ -99,7 +96,7 @@ arch_config:
 
 ## 标签云设置
 tagcloud:
-  tag3d: false
+  tag3d: true
   textColour: '#444'
   outlineMethod: 'block'
   outlineColour: '#FFDAB9'
