@@ -29,7 +29,7 @@ rss: /atom.xml
 ## widgets
 widgets:
   - search
-  - notification
+  # - notification
   - social
   - category
   - archive
