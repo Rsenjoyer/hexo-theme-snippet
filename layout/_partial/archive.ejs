@@ -26,13 +26,13 @@
                     </time>
                 </div>
             </div>
-            <p class="brief">
+            <div class="brief">
                 <% if(post.excerpt) { %>
-                    <%= strip_html(post.excerpt) + '…' %>
+                    <%- post.excerpt %>
                 <% } else { %>
-                    <%= truncate(strip_html(post.content), {length: theme.excerptLength || 120, separator: ''}) %>
+                    <%- post.content %>
                 <% } %>
-            </p>
+            </div>
         </div>
     </article>
  <% }) %>

@@ -24,11 +24,6 @@ favicon: /favicon.ico
 ## Feed
 rss: /atom.xml
 
-## Carousel
-carousel:
-  img: 'img/head-img.jpg'
-  url: 'javascript:'
-
 # 各个小工具的设置
 
 ## widgets
@@ -65,22 +60,10 @@ notification: |-
 social:
  - name: Github
    icon: git
-   href: //github.com/shenliyang
+   href: //github.com/rsenjoyer
  - name: 邮箱
    icon: envelope-o
-   href: mailto:snippet@91h5.cc
- - name: 联系QQ
-   icon: qq
-   href: /
- - name: 微信
-   icon: weixin
-   href: /
- - name: QQ群
-   icon: users
-   href: /
- - name: RSS
-   icon: feed
-   href: /atom.xml
+   href: mailto:rsenjoyer@gmail.com
 
 ## 文章分类设置
 cate_config:
@@ -108,13 +91,15 @@ tagcloud:
 
 ## 友链设置
 links:
-  - Hexo官网: https://hexo.io/zh-cn/
+  - Github: https://github.com/rsenjoyer
+  - 掘金: https://juejin.im/user/59257d78a22b9d0058adb480/posts
 
 
 # 主题自定义个性化配置
 
 ## 网站宣传语
 branding:
+  个人网站
 
 ## 设置banner背景图片
 banner:
@@ -142,23 +127,23 @@ bootstrap:
 ## ICON配置
 fontAwesome:
 
-## 文章过期提醒功能
+# 文章过期提醒功能
 warning:
   days: 300
-  text: '本文于%d天之前发表，文中内容可能已经过时。'
+  text: ''
 
 ## 文章内声明
 declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Rsenjoyer</a>
 
 ## 文章打赏
 reward:
   alipay: ''
-  wepay: '../img/reward-wepay.jpg'
-  tip: 赞赏是不耍流氓的鼓励
+  wepay: # '../img/reward-wepay.jpg'
+  tip: # 赞赏是不耍流氓的鼓励
 
 ## 主题评论
 
@@ -174,17 +159,17 @@ gitment:
 ### 来必力
 livere:
   enable: false
-  livere_uid: MTAyMC8zMzA1MS85NjEz
+  livere_uid: # MTAyMC8zMzA1MS85NjEz
 
 ### 友言评论(服务不稳定)
 uyan:
   enable: false
-  uyan_id: 1966422
+  uyan_id: # 1966422
 
 ### Disqus评论
 disqus:
-  enable: false
-  shortname: snippet
+  enable: true
+  shortname: Diqus
   count: false
 
 ### 畅言评论(需要ICP备案)
@@ -195,10 +180,10 @@ changyan:
 
 ## Valine评论
 valine:
-   enable: true
-   appId: xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
-   appKey: erIpQac4azoCmgfBB7Dl9maa
-   placeholder: 说点什么吧
+   enable: # true
+   appId: # xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
+   appKey: # erIpQac4azoCmgfBB7Dl9maa
+   placeholder: # 说点什么吧
    notify: false
    verify: false
    avatar: mm
@@ -213,7 +198,7 @@ visit_counter:
 ## 网站访问统计分析
 
 ### 网盟CNZZ统计
-cnzz_analytics: 1263868967
+cnzz_analytics: 
 
 ### 百度统计
 baidu_analytics:
